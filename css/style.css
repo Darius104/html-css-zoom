@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-    border: 1px solid red;
 }
 img{
     width: 100%;
@@ -72,6 +71,7 @@ img{
     background-color: #222222;
     align-items: center;
     flex-direction: row;
+    justify-content: space-between;
 }
 .col{
     display: flex;
@@ -83,6 +83,7 @@ img{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 0 10px;
 }
 .icon span{
     font-size: 15px;
@@ -91,4 +92,19 @@ img{
     margin: 0 10px;
     font-weight: bold;
     color: white;
+}
+.icon.green i{
+    color: #4bc800;
+}
+.col-end{
+    display: flex;
+    height: 100%;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    background-color: #4a4a4a;
+    align-items: center;
+}
+.btn{
+    color: red;
 }
